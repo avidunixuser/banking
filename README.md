@@ -146,19 +146,19 @@ Please include this citation if you plan to use this database:
 </pre>
 
 ## Data Preparation and Visulalization
-
+<pre>
 Input: bank-full-raw.csv
 Output: bank_curated_data.csv
 Code Used: Python
 Packages: Pandas, Numpy, Matplotlib, Seaborn
-
+</pre>
 ## Data Cleansing and processing
-
+<pre>
 Input: bank_curated_data.csv
 Output: bank_enriched_data.csv
 Code Used: Python
 Packages: Pandas, sklearn
-
+</pre>
 - LabelCondoding to transform categorical variables
 - Estimators (Decision Tree Classifier, Linear Regression Classifier, KNeighbors Classifier, Support Vector Classifier)
 - cross_val_score of calculated MSE
@@ -168,45 +168,50 @@ Packages: Pandas, sklearn
 - train_test_split
 
 ## Data Modeling and Model Deployment
-
+<pre>
 Input: bank_enriched_data.csv
 Output: Model
-<pre>
+
     1) Decision Tree Regression
-    2 )K-Neighbors Regression
+    2) K-Neighbors Regression
     3) Linear Regression
     4) Support Vector Machine
-</per>
-## Process Summary
+</pre>
 
+## Process Summary
+<pre>
 - By performing different ML models, we aimed to get a better result or less error with max accuracy. 
 
 - From the table below, Decision Tree, KNeighbor, Logistrics Regression, and Support Vector Machine algothims were evaluated. 
 - Two tables indicate - Decision Tree method is the most optimum in terms of predicting the acceptance of subsciption of term deposite 
   based on the direct marketing campaign efforts.
+</pre>
+## Features that influenced the prediction
 
-#### Features that influenced the prediction
-<br></br>
 <center>
     <img src = "images/Feature_Importance.png" width = 80%/>
 </center>
-#### Model Score Table
-<br></br>
+
+## Model Score Table
+
 <center>
     <img src = "images/ScoreTable.png" width = 80%/>
 </center>
-#### Confusion metrics
-<br></br>
+
+## Confusion metrics
+
 <center>
     <img src = "images/Confusion_metrics.png" width = 80%/>
 </center>
-#### Model perforamance
-<br></br>
+
+## Model perforamance
+
 <center>
     <img src = "images/Performance_with_estimators.png" width = 80%/>
 </center>
-#### Model Performance - Graphical representation
-<br></br>
+
+## Model Performance - Graphical representation
+
 <center>
     <img src = "images/Overall_Performance.png" width = 80%/>
 </center>
