@@ -1,0 +1,6 @@
+Model,Best score,Train-test run time in Seconds,Best estimator
+KNN,88.91283847444367,131.35654497146606,"KNeighborsClassifier(leaf_size=1, n_neighbors=2, p=1)"
+Logistics Regression,87.36565900578002,157.59121346473694,"LogisticRegression(C=1.9909999999999997, class_weight='balanced',
+                   random_state=7, solver='liblinear')"
+Decision Tree,90.16458695842246,13.476120948791504,"DecisionTreeClassifier(min_samples_split=302, random_state=42)"
+SVC,84.4143519237868,459.61431407928467,"SVC(C=100, class_weight='balanced', max_iter=10, tol=1e-05)"
