@@ -8,7 +8,7 @@
 - This application makes use of CRISP-DM framework
 
 <center>
-    <img src = images/crispdm.png width = 80%/>
+    <img src = images/crispdm.png width = 100%/>
 </center>
 
 ## Data Set Information:
@@ -189,29 +189,29 @@ Output: Model
 ## Features that influenced the prediction
 
 <center>
-    <img src = "images/Feature_Importance.png" width = 80%/>
+    <img src = "images/Feature_Importance.png" width = 100%/>
 </center>
 
 ## Model Score Table
 
 <center>
-    <img src = "images/ScoreTable.png" width = 80%/>
+    <img src = "images/ScoreTable.png" width = 100%/>
 </center>
 
 ## Confusion metrics
 
 <center>
-    <img src = "images/Confusion_metrics.png" width = 80%/>
+    <img src = "images/Confusion_metrics.png" width = 100%/>
 </center>
 
 ## Model perforamance
 
 <center>
-    <img src = "images/Performance_with_estimators.png" width = 80%/>
+    <img src = "images/Performance_with_estimators.png" width = 100%/>
 </center>
 
 ## Model Performance - Graphical representation
 
 <center>
-    <img src = "images/Overall_Performance.png" width = 80%/>
+    <img src = "images/Overall_Performance.png" width = 100%/>
 </center>
