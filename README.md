@@ -16,7 +16,7 @@
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
 #### Business Understanding
-<pre>
+
 Bank Marketing Data Set
 Download: <a href = "https://archive.ics.uci.edu/ml/machine-learning-databases/00222/"> Data Folder </a> , <a href = "https://archive.ics.uci.edu/ml/datasets/bank+marketing#"> Data Set Description</a>
 
@@ -30,7 +30,7 @@ Number of Attributes: 17
 Date Donated: 2012-02-14
 Associated Tasks: Classification
 Missing Values? None
-</pre>
+
 #### Source:
 
 [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
@@ -45,7 +45,7 @@ The smallest datasets are provided to test more computationally demanding machin
 #### The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
 
 #### Relevant Papers:
-<pre>
+
 S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
 S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimaraes, Portugal, October, 2011. EUROSIS. [bank.zip]
 
@@ -55,7 +55,7 @@ This dataset is public available for research. The details are described in [Mor
 Please include this citation if you plan to use this database:
 
 [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
-</pre>
+
 ## Data Understanding
 
 #### Attribute Information:
@@ -99,23 +99,23 @@ Please include this citation if you plan to use this database:
 </pre>
 #### The data is clean and there are no NaN values.
 <pre>
-- age          45211
-- job          45211
-- marital      45211
-- education    45211
-- default      45211
-- balance      45211
-- housing      45211
-- loan         45211
-- contact      45211
-- day          45211
-- month        45211
-- duration     45211
-- campaign     45211
-- pdays        45211
-- previous     45211
-- poutcome     45211
-- y            45211
+    - age          45211
+    - job          45211
+    - marital      45211
+    - education    45211
+    - default      45211
+    - balance      45211
+    - housing      45211
+    - loan         45211
+    - contact      45211
+    - day          45211
+    - month        45211
+    - duration     45211
+    - campaign     45211
+    - pdays        45211
+    - previous     45211
+    - poutcome     45211
+    - y            45211
 </pre>
 ## Team collaboration - directory structure
 
@@ -171,12 +171,12 @@ Packages: Pandas, sklearn
 
 Input: bank_enriched_data.csv
 Output: Model
-
-- 1)Decision Tree Regression
-- 2)K-Neighbors Regression
-- 3)Linear Regression
-- 4)Support Vector Machine
-
+<pre>
+    1) Decision Tree Regression
+    2 )K-Neighbors Regression
+    3) Linear Regression
+    4) Support Vector Machine
+</per>
 ## Process Summary
 
 - By performing different ML models, we aimed to get a better result or less error with max accuracy. 
