@@ -1,5 +1,5 @@
 ,Algorithm,ROC AUC Mean,ROC AUC STD,Accuracy Mean,Accuracy STD
-0,KNN,75.62,1.31,88.83,0.38
-1,Logistic Regression,87.32,0.75,80.44,0.43
-2,Decision Tree,84.15,1.53,89.88,0.49
-3,SVM,88.72,0.78,88.3,0.43
+0,KNN,67.81,0.83,88.48,0.46
+1,Logistic Regression,71.96,0.89,62.73,0.7
+2,Decision Tree,72.41,1.2,89.18,0.19
+3,SVM,64.42,2.2,88.3,0.51
