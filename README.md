@@ -173,7 +173,7 @@ Input: bank_enriched_data.csv
 Output: Model
 <pre>
     1) Decision Tree Regression
-    2 )K-Neighbors Regression
+    2) K-Neighbors Regression
     3) Linear Regression
     4) Support Vector Machine
 </per>
@@ -185,27 +185,36 @@ Output: Model
 - Two tables indicate - Decision Tree method is the most optimum in terms of predicting the acceptance of subsciption of term deposite 
   based on the direct marketing campaign efforts.
 
-#### Features that influenced the prediction
+## Features that influenced the prediction
+
 <br></br>
 <center>
     <img src = "images/Feature_Importance.png" width = 80%/>
 </center>
-#### Model Score Table
+
+## Model Score Table
+
 <br></br>
 <center>
     <img src = "images/ScoreTable.png" width = 80%/>
 </center>
-#### Confusion metrics
+
+## Confusion metrics
+
 <br></br>
 <center>
     <img src = "images/Confusion_metrics.png" width = 80%/>
 </center>
-#### Model perforamance
+
+## Model perforamance
+
 <br></br>
 <center>
     <img src = "images/Performance_with_estimators.png" width = 80%/>
 </center>
-#### Model Performance - Graphical representation
+
+## Model Performance - Graphical representation
+
 <br></br>
 <center>
     <img src = "images/Overall_Performance.png" width = 80%/>
