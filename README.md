@@ -138,10 +138,11 @@ Please include this citation if you plan to use this database:
 ├── results
 |    ├── model_performance_table.csv
 |    ├── model_performance_with_estimators.csv
-├── 1. Exploratory Data Analysis.ipynb
+├── 1. Exploratory Data Analysis.ipynb (Run #1-3 sequentially to follow CRISP-DM)
 │   2. Data Processing.ipynb
 |   3. Modeling and Deployment.ipynb
-|   4. All_in_PySpark.ipynb
+|   4. All_in_PySpark.ipynb (Run this Standalone - no connection with other notebooks)
+|   5. All_together_Statistics_vs_sklearn.ipynb (Run this Standalone - no connection with other notebooks)
 ├── presentation
 |   ├── PortugueseBank_DataScience_Report.pptx
 
