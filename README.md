@@ -143,6 +143,7 @@ Please include this citation if you plan to use this database:
 |   3. Modeling and Deployment.ipynb
 |   4. All_in_PySpark.ipynb (Run this Standalone - no connection with other notebooks)
 |   5. All_together_Statistics_vs_sklearn.ipynb (Run this Standalone - no connection with other notebooks)
+|   6. Feature Elimination using OLS (p-value) and VIF.ipynb (Run this standalone - multicolinearity and refinement of score)
 ├── presentation
 |   ├── PortugueseBank_DataScience_Report.pptx
 
