@@ -222,7 +222,7 @@ Output: Model
 
 #### What are next steps?
 <pre>
-0. SMOTE should be applied to solve Class imbalance**
+0. SMOTE should be applied to solve Class imbalance
 1. I briefly highlighted "unknown" values in categorical variables, `job` and `marital` features are highly influential, those should be removed from the dataset to try out those models
 2. Secondly, `overlapping features` should be addressed in the dataset which brings ambiquity to those models, once they are cleared, models should reevaluated for better performance
 </pre>
